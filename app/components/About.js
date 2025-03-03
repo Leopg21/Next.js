@@ -12,7 +12,7 @@ const About = () => {
           I am an AI Software Engineer and Web Developer enthusiastic about
           building smart, efficient, and user-friendly applications. With a growing expertise in
           Next.js, TypeScript, and AI integration, I craft innovative solutions for
-          various industries. Let's collaborate to bring cutting-edge ideas to life!
+          various industries. Let&apos;s collaborate to bring cutting-edge ideas to life!
         </p>
         
         <div className="mt-6">
