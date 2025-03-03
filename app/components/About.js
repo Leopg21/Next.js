@@ -9,7 +9,7 @@ const About = () => {
           AI Software Engineer (SWE)
         </h2>
         <p className="text-gray-400 mt-6 leading-relaxed">
-          I'm an AI Software Engineer and Web Developer enthusiastic about
+          I&apos;m an AI Software Engineer and Web Developer enthusiastic about
           building smart, efficient, and user-friendly applications. With a growing expertise in
           Next.js, TypeScript, and AI integration, I craft innovative solutions for
           various industries. Let's collaborate to bring cutting-edge ideas to life!

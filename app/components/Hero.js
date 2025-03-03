@@ -25,12 +25,12 @@ const Hero = () => {
 
       {/* Heading */}
       <h1 className="text-4xl md:text-5xl font-extrabold">
-        Hello there, I'm <span className="text-blue-500">Emmanuel A. Ileogben</span>
+        Hello there, I&apos;m <span className="text-blue-500">Emmanuel A. Ileogben</span>
       </h1>
 
       {/* Description */}
       <p className="text-lg md:text-xl mt-4 max-w-2xl text-gray-300 leading-relaxed">
-        I'm an AI Software Engineer breaking into the 
+        I&apos;m an AI Software Engineer breaking into the 
         <span className="text-yellow-600 font-semibold"> Software Architecture</span>, 
         <span className="text-yellow-600 font-semibold"> System Optimization</span>, and 
         <span className="text-yellow-600 font-semibold"> Secure Application Development</span> space.  
