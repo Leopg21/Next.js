@@ -1,16 +1,3 @@
-// // Hero.js
-// export default function Hero() {
-//     return (
-//       <section className="p-8 bg-yellow-100 text-gray-900 text-center">
-//         <h1 className="text-4xl font-bold">Welcome to My Portfolio</h1>
-//       </section>
-//     );
-//   }
-
-
-
-
-
 import React from 'react';
 import Image from 'next/image';
 import Profile from '../../public/images/16.jpeg';
