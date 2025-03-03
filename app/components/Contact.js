@@ -58,6 +58,7 @@ const Contact = () => {
                 key={index} 
                 href={link.url} 
                 target="_blank" 
+                /* spell-checker: disable-next-line */
                 rel="noopener noreferrer" 
                 className="text-blue-400 hover:underline"
               >
