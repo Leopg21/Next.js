@@ -13,14 +13,14 @@
 
 import React from 'react';
 import Image from 'next/image';
-import Profile from '../../public/images/';
+import Profile from '../../public/images/16.jpeg';
 
 const Hero = () => {
   return (
     <section className="flex flex-col items-center justify-center h-screen text-center bg-gray-900 text-white px-6">
       {/* Profile Image */}
       <div className="relative w-40 h-40 md:w-48 md:h-48 mb-6 rounded-full overflow-hidden border-4 border-blue-400 shadow-lg">
-        <Image src="/images/" alt="Emmanuel A. Ileogben" width={192} height={192} className="object-cover" />
+        <Image src="/images/16.jpeg" alt="Emmanuel A. Ileogben" width={182} height={182} className="object-cover" />
       </div>
 
       {/* Heading */}
