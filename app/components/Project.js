@@ -21,12 +21,12 @@ const projects = [
     image: "/portfolio-preview.png",
   },
   {
-    title: "Secure Login System",
+    title: "Portfolio Website",
     description:
-      "A user authentication system with JWT and bcrypt for secure password hashing.",
-    tech: ["Node.js", "Express", "MongoDB", "JWT"],
+      "A personal portfolio built with Next.js, showcasing my projects and skills.",
+    tech: ["HTML", "CSS", "Bootstrap", "Vercel"],
 
-    link: "https://github.com/yourgithub/secure-login",
+    link: "https://emmanuelileogben.vercel.app",
     image: "/secure-login-preview.png",
   },
   {
