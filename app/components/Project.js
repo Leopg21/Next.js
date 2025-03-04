@@ -17,28 +17,28 @@ const projects = [
       "A personal portfolio built with Next.js, showcasing my projects and skills.",
     tech: ["Next.js", "Tailwind CSS", "Vercel"],
 
-    link: "https://your-portfolio-link.com",
+    link: "https://emmanuelai.vercel.app",
     image: "/portfolio-preview.png",
   },
   {
     title: "Portfolio Website",
     description:
-      "A personal portfolio built with Next.js, showcasing my projects and skills.",
+      "A personal portfolio built with HTML, showcasing my projects and skills.",
     tech: ["HTML", "CSS", "Bootstrap", "Vercel"],
 
     link: "https://emmanuelileogben.vercel.app",
     image: "/secure-login-preview.png",
   },
-  {
-    title: "Android Notes App",
-    description:
-      "A simple Android app for creating and managing notes, built with Kotlin.",
-    // spell-checker: disable
-    tech: ["Kotlin", "Jetpack Compose", "Firebase"],
-    // spell-checker: enable
-    link: "https://github.com/yourgithub/notes-app",
-    image: "/notes-app-preview.png",
-  },
+  // {
+  //   title: "Android Notes App",
+  //   description:
+  //     "A simple Android app for creating and managing notes, built with Kotlin.",
+  //   // spell-checker: disable
+  //   tech: ["Kotlin", "Jetpack Compose", "Firebase"],
+  //   // spell-checker: enable
+  //   link: "https://github.com/yourgithub/notes-app",
+  //   image: "/notes-app-preview.png",
+  // },
 ];
 export default function Projects() {
   return (
