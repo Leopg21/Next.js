@@ -13,7 +13,8 @@ const Hero = () => {
 
       {/* Heading */}
       <h1 className="text-4xl md:text-5xl font-extrabold">
-        Hello there, I'm <span className="text-blue-500">Emmanuel A. Ileogben</span>
+        {/* spell-checker: disable-next-line */}
+        Hello there, I am <span className="text-blue-500">Emmanuel Ileogben</span>
       </h1>
 
       {/* Description */}
@@ -26,6 +27,13 @@ const Hero = () => {
       </p>
 
       {/* CTA Button */}
+      {/* <a 
+        href="#projects"
+        className="mt-6 px-6 py-3 bg-pink-500 text-white rounded-md text-lg font-medium 
+        hover:bg-pink-600 transition duration-300 shadow-lg"
+      >
+        View My Work
+      </a> */}
 
     </section>
   );
