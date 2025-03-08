@@ -40,7 +40,7 @@ const Header = () => {
       transition={{ duration: 2.0, ease: 'easeInOut' }}
       className="sticky top-0 left-0 w-full bg-opacity-20 backdrop-blur-md shadow-md text-white py-3 px-6 md:px-12 flex items-center justify-between z-50"
     >
-      <h1 className="text-2xl font-bold tracking-wide">Emmanuel A. Ileogben ~ AI Software Engineer</h1>
+      <h1 className="text-l font-bold tracking-wide">Portfolio</h1>
     </motion.header>
   );
 };
