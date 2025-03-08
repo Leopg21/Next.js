@@ -94,26 +94,26 @@ export default function Projects() {
       <div className="text-center mb-12">
         <h2 className="text-4xl font-bold text-blue-400">Projects</h2>
         <p className="text-lg mt-2 text-gray-300">
-          Here are some of the projects I&lsquo;ve worked on.
+          Here are some of the projects I&apos;ve worked on.
         </p>
       </div>
 
-      <div className="max-w-6xl mx-auto grid gap-10 md:grid-cols-2 lg:grid-cols-3">
+      {/* Centering the project cards */}
+      <div className="max-w-4xl mx-auto grid gap-10 md:grid-cols-2 justify-center">
         {projects.map((project, index) => (
           <div key={index} className="bg-gray-800 p-6 rounded-2xl shadow-lg hover:scale-105 transition-transform duration-300">
             <Image
               src={project.image}
-              alt={project.title}
+              alt={project.image}
+              width={500}
+              height={500}
               className="rounded-lg mb-4 w-full h-48 object-cover"
             />
             <h3 className="text-2xl font-semibold text-white">{project.title}</h3>
             <p className="text-gray-400 mt-2">{project.description}</p>
             <div className="mt-3 flex flex-wrap gap-2">
               {project.tech.map((tech, i) => (
-                <span
-                  key={i}
-                  className="bg-blue-500 text-white px-3 py-1 rounded-full text-sm font-semibold"
-                >
+                <span key={i} className="bg-blue-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
                   {tech}
                 </span>
               ))}
@@ -131,3 +131,4 @@ export default function Projects() {
     </section>
   );
 }
+
