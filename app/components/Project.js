@@ -67,6 +67,7 @@
 
 
 import React from "react";
+import Image from 'next/image';
 
 const projects = [
   {
@@ -100,7 +101,7 @@ export default function Projects() {
       <div className="max-w-6xl mx-auto grid gap-10 md:grid-cols-2 lg:grid-cols-3">
         {projects.map((project, index) => (
           <div key={index} className="bg-gray-800 p-6 rounded-2xl shadow-lg hover:scale-105 transition-transform duration-300">
-            <img
+            <Image
               src={project.image}
               alt={project.title}
               className="rounded-lg mb-4 w-full h-48 object-cover"

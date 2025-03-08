@@ -132,7 +132,7 @@ const About = () => {
             onClick={scrollToContact}
             className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-pink-500 transition duration-300"
           >
-            Let's Connect
+            Let&lsquo;s Connect
           </button>
         </div>
       </div>
